@@ -3,12 +3,14 @@ import SectionHeader from "@/components/shared/SectionHeader";
 import GallerySection from "@/components/modules/Home/GallerySection";
 import FAQSection from "@/components/modules/Home/FAQSection";
 import ProductSection from "@/components/modules/Home/ProductSection";
+import HeroSection from "@/components/modules/Home/HeroSection";
 
 export const dynamic = "force-dynamic";
 
 export default function Home() {
   return (
     <>
+      <HeroSection />
       {/* Product Section */}
       <section className="my-12 max-w-7xl mx-auto px-4 w-full">
         <SectionHeader
