@@ -6,11 +6,9 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import z from "zod";
 import { useRouter } from "next/navigation";
-
 import CheckoutItemCard from "@/components/modules/Checkout/CheckoutItemCard";
 import { CheckoutOTPDialog } from "@/components/modules/Checkout/CheckoutOTPDialog";
 import { OrderConfirmDialog } from "@/components/modules/Checkout/OrderConfirmDialog";
-
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
